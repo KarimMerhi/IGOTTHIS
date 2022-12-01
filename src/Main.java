@@ -47,16 +47,28 @@ public class Main {
 	newnum = newnum - newnum + 8;
 	System.out.println(newnum);
 	
-	}
 //Variables exercise
-	//take a string from the user 
-	//take a integer from the user
-	//take a double from the user 
-	//make the double into a integer by rounding if needed and removing the .
+	System.out.println("Whats the number sir?");
+	newnum = in.nextInt();
+	System.out.println("Are you sure?");
+	double dblNum = in.nextDouble();
+	in.nextLine();
+	System.out.println("Can you please give me a word then?");
+	String Word=in.nextLine();
+	System.out.println(Word.toUpperCase());
+	
+	//make the double into a integer by rounding
 	//change the string to uppercase
+	
 	//print the first 3 letters
+	
 	//then print the rest
-//Subprogram
+
+	
+	
+	
+	
+	//Subprogram
 	//make a static method that takes 1 of 2 strings that the user inputs
 
 	
@@ -80,6 +92,12 @@ public class Main {
 
 
 
+	}
+
+	private static String upper() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 
 }
 
